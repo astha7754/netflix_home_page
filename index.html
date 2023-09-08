@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Netflix Home Page</title>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+ <div class="nav" id="nav">
+  <img src="netflix/netflix-logo.png" alt="" class="nav__logo" />
+  <img src="netflix/netflix-avatar.png" alt="" class="nav__avatar" />
+ </div>
+
+
+  <!-- header -->
+  <div class="banner">
+    <div class="banner__contents">
+      <h1 class="banner__title">Money Heist</h1>
+      <div class="banner__buttons">
+        <button class="banner__button">Play</button>
+        <button class="banner__button">My List</button>
+      </div>
+      <div class="banner__description">
+        This article is about a Spanish crime series called "Money Heist" where eight thieves take hostages and lock themselves in the Royal Mint of Spain as a criminal mastermind manipulates the police to carry out his plan.
+      </div>
+    </div>
+    <div class="banner--fadeBottem">
+
+    </div>
+  </div>
+  <!-- Netflix ORIGINALS -->
+  <div class="row">
+    <h2>NETFLIX ORIGINALS</h2>
+    <div class="row__posters">
+      <img src="netflix/large-movie1.jpg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/large-movie2.jpg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/large-movie3.jpg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/large-movie4.jpg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/large-movie5.jpg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/large-movie6.jpg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/large-movie7.jpg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/large-movie8.jpg" alt="" class="row__poster row__posterLarge" />
+    </div>
+  </div>
+
+  <!-- web series -->
+  <div class="row">
+    <h2>Web Series</h2>
+    <div class="row__posters">
+      <img src="netflix/web 1.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/web 2.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/web 3.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/web 4.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/web 5.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/web 6.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/web 7.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/web 8.jpeg" alt="" class="row__poster row__posterLarge" />
+    </div>
+  </div>
+
+ <!-- Indian -->
+  <div class="row">
+    <h2>Indian</h2>
+    <div class="row__posters">
+      <img src="netflix/indian.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/indian1.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/indian2.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/indian3.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/indian4.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/indian5.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/indian6.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/indian7.jpeg" alt="" class="row__poster row__posterLarge" />
+    </div>
+  </div>
+
+  <!-- documentries -->
+  <div class="row">
+    <h2>Documentries</h2>
+    <div class="row__posters">
+      <img src="netflix/doc1.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/doc2.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/doc3.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/doc4.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/doc5.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/doc6.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/doc7.jpeg" alt="" class="row__poster row__posterLarge" />
+      <img src="netflix/doc8.jpeg" alt="" class="row__poster row__posterLarge" />
+    </div>
+  </div>
+
+  <script>
+    const nav = document.getElementById('nav');
+
+    window.addEventListener('scroll', () => {
+        if(window.scrollYlll >= 100) {
+          nav.classList.add('nav__black');
+        }
+        else{
+          nav.classList.remove('nav__black');
+        }
+    })
+  </script>
+</body>
+
+</html>
